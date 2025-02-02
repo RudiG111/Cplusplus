@@ -9,7 +9,7 @@ int main()
     bool sameinitial=false;
     if(name[0]==name2[0])
     sameinitial=true;
-    statement=(name.size()==name2.size())? "The two names have the same length" : "The two names does not have the same length";
+    statement=(name.size()==name2.size())? "The two names have the same length" : "The two names do not have the same length";
         cout<<statement;
     cout<<endl<<name[0]<<"&"<<name2[name2.size()-1];
     cout<<endl<<"Math is \"easy\"."<<endl;
