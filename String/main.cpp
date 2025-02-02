@@ -88,7 +88,7 @@ int main()
     }
     cout<<"Your car is a "+car<<endl;
     int income[12];
-    cout<<"Type here your income for the past year mounth by mounth:";
+    cout<<"Type here your income for the past year month by month:";
     for(int &i : income)
         cin>>i;
         bool currencyselected=false;
