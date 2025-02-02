@@ -56,7 +56,7 @@ int main()
         break;
     default:
         cout<<"Your age is not special.";}
-    cout<<endl<<"Give me how many values the array can have:";
+    cout<<endl<<"Give me how many values an array can have:";
     int n;
     cin>>n;
     int arr1d[n],x=0;
